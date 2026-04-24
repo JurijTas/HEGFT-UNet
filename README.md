@@ -1,7 +1,7 @@
 # HEGFT-UNet: Hybrid Edge-Guided Frequency-Aware Transformer for Thyroid Nodule Segmentation
 - This repository contains the official implementation of HEGFT-UNet, a deep learning framework designed for accurate thyroid nodule segmentation in ultrasound images.
 - HEGFT-UNet addresses the inherent challenges of medical ultrasound, such as low contrast, speckle noise, and hardware variability, by integrating global context modeling with frequency-aware feature refinement.
-  :rocket: ## Key Features:
+## :rocket: Key Features:
 - Hybrid Dual-Encoder: Combines CNN-based local feature extraction with Swin Transformer (ST) to jointly capture fine-grained textures and long-range global dependencies.
 - MFCSA Decoder: A novel Multi-Frequency Channel Spatial Attention module that utilizes Discrete Cosine Transform (DCT) cues to suppress noise and emphasize diagnostically relevant anatomical details.
 - Edge-Aware Guidance: Implements a multi-scale feature aggregation strategy focused on structural consistency and precise boundary preservation, especially for small lesions.
