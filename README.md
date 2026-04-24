@@ -6,12 +6,12 @@
 - MFCSA Decoder: A novel Multi-Frequency Channel Spatial Attention module that utilizes Discrete Cosine Transform (DCT) cues to suppress noise and emphasize diagnostically relevant anatomical details.
 - Edge-Aware Guidance: Implements a multi-scale feature aggregation strategy focused on structural consistency and precise boundary preservation, especially for small lesions.
 - Robust Generalization: Proven performance across diverse clinical scenarios through cross-dataset validation (trained on TN3K and validated on the independent IPPT clinical cohort).
-## Architecture Overview:
+## :building_construction: Architecture Overview:
 The HEGFT-UNet framework is built upon three primary contributions:
 - Global-Local Integration: A dual-stream architecture ensuring effective representation of both macro-anatomical structures and micro-textures.
 - Boundary-Aware Refinement: A multi-stage fusion strategy that strengthens edge consistency across nodules of varying sizes.
 - Frequency-Domain Learning: Integration of frequency cues to enhance robustness against the variability of ultrasound protocols and hardware environments.
-## Datasets:
+## :bar_chart: Datasets:
 To ensure clinical relevance and reproducibility, the model was evaluated using:
 - TN3K Dataset: A large-scale public dataset for thyroid ultrasound segmentation.
 - IPPT Dataset: An independent clinical cohort used to demonstrate the framework's robust generalization in real-world environments.
