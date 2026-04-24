@@ -1,4 +1,4 @@
-*HEGFT-UNet: Hybrid Edge-Guided Frequency-Aware Transformer for Thyroid Nodule Segmentation
+HEGFT-UNet: Hybrid Edge-Guided Frequency-Aware Transformer for Thyroid Nodule Segmentation
 This repository contains the official implementation of HEGFT-UNet, a deep learning framework designed for accurate thyroid nodule segmentation in ultrasound images.
 HEGFT-UNet addresses the inherent challenges of medical ultrasound, such as low contrast, speckle noise, and hardware variability, by integrating global context modeling with frequency-aware feature refinement.
 Key Features:
