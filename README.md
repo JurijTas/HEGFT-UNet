@@ -8,6 +8,7 @@
 - Robust Generalization: Proven performance across diverse clinical scenarios through cross-dataset validation (trained on TN3K and validated on the independent IPPT clinical cohort).
 ## Architecture Overview:
 The HEGFT-UNet framework is built upon three primary contributions:
+
 -Global-Local Integration: A dual-stream architecture ensuring effective representation of both macro-anatomical structures and micro-textures.
 -Boundary-Aware Refinement: A multi-stage fusion strategy that strengthens edge consistency across nodules of varying sizes.
 -Frequency-Domain Learning: Integration of frequency cues to enhance robustness against the variability of ultrasound protocols and hardware environments.
